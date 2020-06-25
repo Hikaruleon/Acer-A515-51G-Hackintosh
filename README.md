@@ -1,4 +1,4 @@
-**Special Thanks** to [SiddheshNan](https://github.com/SiddheshNan) for compiling and puting all of this together!
+### **Special Thanks** to [SiddheshNan](https://github.com/SiddheshNan) for compiling and puting all of this together!
 # Acer-A515-51G-Hackintosh
 
 #### Supports MacOS 10.15.x, 10.14.x and 10.13.x
@@ -10,7 +10,7 @@
 
 ## What's Working...
  
- #**Keyboard + Trackpad on bios 2.02 via updated DSDT 
+ ### Keyboard + Trackpad on bios 2.02 via updated DSDT 
  
  - [x] Audio & headphone jack
  - [x] CPU Speedstep (XCPM)
@@ -30,17 +30,18 @@
  - [x] Native hotkey support with Fn keys
 
  ## Warning
- #### **If you don't have any compatible WiFi card installed, then please visit [without-wifi-patches(BCM94352Z) Branch](https://github.com/SiddheshNan/Acer-A515-51G-Hackintosh/tree/without-wifi-patches(BCM94352Z)) of this repo.**
+ #### **If you don't have any compatible WiFi card installed, then please visit [without-wifi-patches(BCM94352Z) Branch](https://github.com/SiddheshNan/Acer-A515-51G-Hackintosh/tree/without-wifi-patches(BCM94352Z)) of this repo. Note: this does nto have the updated DSDT for bios 2.02 **
 
 ## Installation
 
  ### BIOS Settings
+* *Main* → Touchpad → Set touchpad mode → **Advance**
+* *Main* → Lid Open resume → **Enabled**
 * *Security* → Set supervisor password (to disable secure boot)
 * *Security* → Password on boot → **Disable**
 * *Boot* → Secure Boot → **Disable**
 * *Boot* → Boot Mode → **UEFI**
-* *Main* → Touchpad → Set touchpad mode → **Advance**
-* *Main* → Lid Open resume → **Enabled**
+
 
 
 ###  Basic Installation
