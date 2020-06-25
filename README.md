@@ -30,7 +30,7 @@
  - [x] Native hotkey support with Fn keys
 
  ## Warning
- #### **If you don't have any compatible WiFi card installed, then please visit [without-wifi-patches(BCM94352Z) Branch](https://github.com/SiddheshNan/Acer-A515-51G-Hackintosh/tree/without-wifi-patches(BCM94352Z)) of this repo. Note: this does nto have the updated DSDT for bios 2.02 **
+ #### **If you don't have any compatible WiFi card installed, then please visit [without-wifi-patches(BCM94352Z) Branch](https://github.com/SiddheshNan/Acer-A515-51G-Hackintosh/tree/without-wifi-patches(BCM94352Z)) of this repo. Note: this does not have the updated DSDT for bios 2.02 **
 
 ## Installation
 
