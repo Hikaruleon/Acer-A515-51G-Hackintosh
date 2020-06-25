@@ -1,6 +1,5 @@
+**Special Thanks** to [SiddheshNan](https://github.com/SiddheshNan) for compiling and puting all of this together!
 # Acer-A515-51G-Hackintosh
-
-[![Join the chat at https://gitter.im/Acer-A515-51G-Hackintosh](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Acer-A515-51G-Hackintosh/community)
 
 #### Supports MacOS 10.15.x, 10.14.x and 10.13.x
 
@@ -11,7 +10,7 @@
 
 ## What's Working...
  
- **Keyboard + Trackpad on bios 2.02 via updated DSDT 
+ #**Keyboard + Trackpad on bios 2.02 via updated DSDT 
  
  - [x] Audio & headphone jack
  - [x] CPU Speedstep (XCPM)
@@ -29,15 +28,6 @@
  - [x] Sleep From Lid
  - [x] WiFi (2.4 + 5GHz) + BT by using BCM94352z
  - [x] Native hotkey support with Fn keys
-
-<p align="center">
-  <img src="https://i.imgur.com/A0cKRrX.png" alt="Benchmarks">
-</p>
-
-  - Geekbench Score :
-  - - Single-Core Score : 4219 [Link](https://browser.geekbench.com/v4/cpu/13793813).
-  - - Multi-Core Score : 14837 [Link](https://browser.geekbench.com/v4/cpu/13793813).
-  - - GPU OpenCL Score : 31191 [Link](https://browser.geekbench.com/v4/compute/4258348).
 
  ## Warning
  #### **If you don't have any compatible WiFi card installed, then please visit [without-wifi-patches(BCM94352Z) Branch](https://github.com/SiddheshNan/Acer-A515-51G-Hackintosh/tree/without-wifi-patches(BCM94352Z)) of this repo.**
