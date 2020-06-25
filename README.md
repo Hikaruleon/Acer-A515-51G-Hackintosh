@@ -1,5 +1,3 @@
-
-
 # Acer-A515-51G-Hackintosh
 
 [![Join the chat at https://gitter.im/Acer-A515-51G-Hackintosh](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Acer-A515-51G-Hackintosh/community)
@@ -12,6 +10,9 @@
 
 
 ## What's Working...
+ 
+ **Keyboard + Trackpad on bios 2.02 via updated DSDT 
+ 
  - [x] Audio & headphone jack
  - [x] CPU Speedstep (XCPM)
  - [x] iGPU with disabled dGPU
@@ -54,7 +55,7 @@
 
 ###  Basic Installation
 
-- Create a Bootable USB for MacOS by using my [USB Installation Guide](https://github.com/SiddheshNan/Acer-A515-51G-Hackintosh/blob/master/USB-Installation-Guide.md) OR by RehabMan's [[Guide] Booting the OS X installer on LAPTOPS with Clover](https://www.tonymacx86.com/el-capitan-laptop-support/148093-guide-booting-os-x-installer-laptops-clover.html).
+- Create a Bootable USB for MacOS by RehabMan's [[Guide] Booting the OS X installer on LAPTOPS with Clover](https://www.tonymacx86.com/el-capitan-laptop-support/148093-guide-booting-os-x-installer-laptops-clover.html).
 - Install MacOS to SSD / Hard drive. (While installing, connect USB keyboard and mouse because I2C is not supported during installation)
 - Install [Clover Bootloader](https://github.com/CloverHackyColor/CloverBootloader/releases) into SSD / hard drive.
 - Copy **ALL** the Contains of this Repo into **CLOVER** Folder inside the EFI partition of SSD / Hard drive.
@@ -92,7 +93,7 @@ $ sudo trimforce enable
 
 
 <p align="center">
-<b>⭐ Please consider starring this repository if it helped you! ⭐</b>
+<b>⭐ Please consider starring SiddheshNan's repository if it helped you! ⭐</b>
 </p>
 
 ---
@@ -143,7 +144,7 @@ $ sudo trimforce enable
 
 
 ## Credits
-
+- **Special Thanks** to [SiddheshNan](https://github.com/SiddheshNan) for compiling and puting all of this together!
 - **Special Thanks** to [Acidanthera](https://github.com/acidanthera) for most of the Kexts.
 - **Special Thanks** to [RehabMan](https://github.com/RehabMan).
 - Thanks to [Clover Bootloader](https://sourceforge.net/projects/cloverefiboot).
